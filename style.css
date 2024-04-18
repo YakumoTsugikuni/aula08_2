@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: large;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+header, footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size:  larger;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 225px;
+    gap: 20px;
+}
+label{
+    font-size: larger;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: larger;
+    padding: 10px;
+}
+.conversor{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 450px;
+    border: #7c7c7c 2px;
+    padding: 20px;
+    border: solid 1px #c2c2c2;
+    border-radius: 10px;
+    background-color: #fff;
+    gap: 10px;
+    align-items: center;
+    align-items: flex-start;
+}
+#decimal,#binary{
+    border: solid 1px #c2c2c2;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+}
+#btnBinaryToDecimal,#btnDecimalToBinary{
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 10px;
+    width: 100%;
+}
+#btnBinaryToDecimal:hover{
+    background-color: #111;
+}
+#btnDecimalToBinary:hover{
+    background-color: #111;
+}
