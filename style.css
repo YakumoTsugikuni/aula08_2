@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
     align-items: center;
     font-size: large;
-    background-color: #f1f1f1;
+    background-color: #ebebeb;
     height: 100%;
 }
 header, footer{
@@ -22,7 +22,7 @@ footer{
 main{
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #ddd;
     padding: 225px;
     gap: 20px;
 }
@@ -48,13 +48,6 @@ input{
     gap: 10px;
     align-items: center;
     align-items: flex-start;
-}
-#decimal,#binary{
-    border: solid 1px #c2c2c2;
-    border-radius: 5px;
-    margin: 10px;
-    width: 100%;
-    padding: 20px;
 }
 #btnBinaryToDecimal,#btnDecimalToBinary{
     background-color: #333;
